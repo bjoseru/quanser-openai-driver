@@ -22,7 +22,6 @@ extensions = [
             "hil",
             "quanser_runtime",
             "quanser_common",
-            "rt",
             "pthread",
             "dl",
             "m",
