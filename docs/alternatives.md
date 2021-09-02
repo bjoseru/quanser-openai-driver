@@ -5,7 +5,7 @@ In addition to a [context manager (recommended)](../README.md#usage), the enviro
 
 ```python
 import gym
-from gym_brt import QubeSwingupEnv
+from gym_brt.envs import QubeSwingupEnv
 
 num_episodes = 10
 num_steps = 250

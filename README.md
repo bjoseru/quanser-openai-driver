@@ -53,7 +53,8 @@ Without safely closing the Env, bad things may happen. Usually you will not be a
 This can be done with a context manager using a `with` statement
 ```python
 import gym
-from gym_brt import QubeSwingupEnv
+from gym_brt.envs import QubeSwingupEnv
+
 
 num_episodes = 10
 num_steps = 250
